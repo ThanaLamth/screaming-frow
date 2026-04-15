@@ -65,10 +65,17 @@ Only `2` URLs were flagged as redirect blockers:
 
 This is minor compared with the underindexing and URL-normalization issues.
 
+Additional taxonomy decision:
+
+- `https://coinlineup.com/news/nft/` should not be treated as a recovery target
+- it is a thin category with limited post depth and weak strategic fit for Coinlineup
+- preferred action is `301` to `https://coinlineup.com/news/` after article reassignment
+
 ## Practical next actions
 
 1. Keep media `.webm` URLs as `noindex`, but remove them from sitemaps and reduce internal surfacing if they are not meant for search.
 2. Fix slash/non-slash duplication for `/currencies/` URLs and enforce one canonical format.
 3. Remove or canonicalize parameter URLs like `/coin/?uuid=...`.
 4. Improve and resubmit the `18` article URLs in the blocker set, starting with the URLs that already have impressions or backlinks.
-5. Use the merged blocker columns in `coinlineup-url-decision-full.csv` as the source of truth for execution order.
+5. Retire the thin `https://coinlineup.com/news/nft/` taxonomy into `https://coinlineup.com/news/` instead of trying to force indexation.
+6. Use the merged blocker columns in `coinlineup-url-decision-full.csv` as the source of truth for execution order.

@@ -107,12 +107,19 @@ URLs:
 - `https://coinlineup.com/home/`
 - `https://coinlineup.com/nft/`
 
+Related taxonomy decision:
+
+- `https://coinlineup.com/news/nft/` should also be retired into `https://coinlineup.com/news/`
+- reason: the category is too thin to justify a standalone indexable archive
+
 Actions:
 
 1. Check where each URL redirects.
 2. Keep the redirect if the destination is correct.
 3. Remove these URLs from XML sitemaps if they are listed.
 4. Update internal links so they point directly to final destinations.
+5. Reassign the small NFT post set into broader categories before retiring `/news/nft/`.
+6. Redirect `/news/nft/` to `https://coinlineup.com/news/` once reassignment is complete.
 
 Expected outcome:
 
