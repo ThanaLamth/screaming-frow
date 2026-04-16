@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+TheCCPress/Crawl/
+TheCCPress/GSC/
+TheCCPress/Backlink/
