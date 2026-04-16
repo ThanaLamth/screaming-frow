@@ -1,0 +1,13 @@
+bucket,url,replacement_url,live_status,live_location,referring_domains,backlink_rows,notes
+optional_cleanup,https://coinlineup.com/nft/,https://coinlineup.com/news/,301,https://coinlineup.com/,,,Already redirects to homepage not /news/
+exclude_review,https://coinlineup.com/currencies/USD1/usd1-wlfi/,https://coinlineup.com/currencies/1/usd1-wlfi/,200,,,,Keep source URL; target is wrong coin page
+exclude_review,https://coinlineup.com/currencies/USDC/usd-coin/,https://coinlineup.com/currencies/C/usd-coin/,200,,,,Keep source URL; target is wrong coin page
+exclude_review,https://coinlineup.com/currencies/USDE/ethena-usde/,https://coinlineup.com/currencies/E/ethena-usde/,200,,,,Keep source URL; target is broken or wrong route
+exclude_review,https://coinlineup.com/currencies/USDF/falcon-finance/,https://coinlineup.com/currencies/F/falcon-finance/,200,,,,Keep source URL; target is wrong coin page
+exclude_review,https://coinlineup.com/currencies/USDG/global-dollar/,https://coinlineup.com/currencies/G/global-dollar/,200,,,,Keep source URL; target is wrong coin page
+exclude_review,https://coinlineup.com/currencies/USDS/usds/,https://coinlineup.com/currencies/S/usds/,200,,,,Keep source URL; target is wrong coin page
+exclude_review,https://coinlineup.com/currencies/USDT/tether/,https://coinlineup.com/currencies/T/tether/,200,,,,Keep source URL; target is wrong coin page
+exclude_review,https://www.coinlineup.com/fluid-suspends-usr-marketplace-promises-full-compensation-to-affected-users/,https://coinlineup.com/fluid-suspends-usr-marketplace-promises-full-compensation-to-affected-users/,410,,0,0,Already 410 no current 301 value
+exclude_review,https://www.coinlineup.com/resolv-labs-usr-stablecoin-loses-peg-after-attacker-mints-80-million-tokens/,https://coinlineup.com/resolv-labs-usr-stablecoin-loses-peg-after-attacker-mints-80-million-tokens/,410,,0,0,Already 410 no current 301 value
+exclude_review,https://www.coinlineup.com/sec-cftc-joint-crypto-regulation-guidance-takes-effect-monday/,https://coinlineup.com/sec-cftc-joint-crypto-regulation-guidance-takes-effect-monday/,410,,0,0,Already 410 no current 301 value
+exclude_review,https://coinlineup.com/currencies///,https://coinlineup.com/currencies/,410,,0,0,Already 410 no current 301 value
