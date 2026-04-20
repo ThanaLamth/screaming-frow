@@ -8,7 +8,7 @@
 
 ## Type Counts
 
-- Posts: `11490`
+- Posts: `11485`
 - Tag archives: `4488`
 - Pagination URLs: `228`
 - CMC archive + pagination: `34`
@@ -21,8 +21,8 @@
 ## Suggested Actions
 
 - Keep: `9587`
-- Improve: `814`
-- 301: `1130`
+- Improve: `809`
+- 301: `1135`
 - Noindex: `5117`
 - Delete: `0`
 

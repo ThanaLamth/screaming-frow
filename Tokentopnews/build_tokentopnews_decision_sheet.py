@@ -74,7 +74,18 @@ def classify_type(
     path = path_only(url)
     query = parsed.query.lower()
 
-    if any(token in query for token in ("amp=1", "pa_service_worker=1", "page_id=", "p=", "utm_")):
+    if any(
+        token in query
+        for token in (
+            "amp=1",
+            "pa_service_worker=1",
+            "page_id=",
+            "p=",
+            "utm_",
+            "prefer_reader_view=1",
+            "prefer_safari=1",
+        )
+    ):
         return "parameter"
     if path == "/":
         return "homepage"

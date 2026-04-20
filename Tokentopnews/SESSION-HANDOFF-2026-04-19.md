@@ -101,3 +101,33 @@ Recommended next execution order:
 2. Lock stable `noindex` rules for tags, `/cmc/`, `/coin/*`, and media pages.
 3. Clean sitemap output to remove upload URLs and other non-indexable entries.
 4. Work the `crawled currently not indexed` improve batch.
+
+## 2026-04-20 Follow-up
+
+Re-verified live state and found these deltas:
+
+- `?prefer_reader_view=1&prefer_safari=1` variants are already `301` by Yoast
+- `/crypto-topics/press-release/` is already `301` to `/press-release/`
+- `/cmc/` and `/tag/*` are already `200 + noindex,follow`
+- `/coin/*` is still live as `200 + index,follow` while canonicalising to `/coin/`
+
+Additional outputs created:
+
+- `tokentopnews-coin-duplicate-batch-2026-04-20.csv`
+- `tokentopnews-garbage-410-batch-2026-04-20.csv`
+- `tokentopnews-next-actions-2026-04-20.md`
+
+Key practical next step:
+
+- add `noindex,follow` to `/coin/*`
+
+Reason:
+
+- `61` live duplicate `/coin/*` URLs remain
+- `/coin/bitcoin/` alone takes about `4084` internal inlink rows
+- `/coin/ethereum/` takes about `3262`
+
+Optional cleanup batch:
+
+- `51` malformed placeholder URLs can be upgraded from `404` to `410`
+- these include bad suffixes like `/N/A`, `/URL`, and `url_placeholder`

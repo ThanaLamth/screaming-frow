@@ -10,10 +10,10 @@
 
 ## Redirect Batch Counts
 
-- Total priority 301 URLs: `300`
+- Total priority 301 URLs: `305`
 - Legacy archives: `9`
 - Broken posts/pages: `280`
-- Parameter variants: `4`
+- Parameter variants: `9`
 
 ## Noindex Batch Counts
 
@@ -25,8 +25,8 @@
 
 ## Improve Batch Counts
 
-- Total priority improve URLs: `814`
-- Crawled currently not indexed URLs in top batch: `25`
+- Total priority improve URLs: `809`
+- Crawled currently not indexed URLs in top batch: `20`
 - Section/archive URLs needing quality work: `7`
 
 ## Execution Order
